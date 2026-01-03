@@ -1,7 +1,5 @@
 {
   "name": "NovaNav - 极简导航",
   "description": "一个视觉精美、响应迅速的网址导航面板，支持实时过滤和分类管理。",
-  "requestFramePermissions": [
-    "geolocation"
-  ]
+  "requestFramePermissions": []
 }
