@@ -4,7 +4,6 @@ import Header from './components/Header';
 import BookmarkCard from './components/BookmarkCard';
 import { CATEGORIES, INITIAL_BOOKMARKS } from './constants';
 import { Icons } from './components/Icons';
-import { Category } from './types';
 
 const App: React.FC = () => {
   const [activeCategoryId, setActiveCategoryId] = useState<string | null>(null);
@@ -86,8 +85,6 @@ const App: React.FC = () => {
               </button>
             ))}
           </nav>
-
-          {/* Footer area removed as requested */}
         </div>
       </aside>
 
