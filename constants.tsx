@@ -10,7 +10,7 @@ export const CATEGORIES: Category[] = [
 
 export const INITIAL_BOOKMARKS: Bookmark[] = [
   // 实用工具
-  { id: '1', categoryId: 'tools', name: '封面制作', url: 'https://images-aex.vercel.app/', description: '封面生成器', icon: '' },
+  { id: '1', categoryId: 'tools', name: '封面制作', url: 'https://images-aex.vercel.app/', description: '封面生成器', icon: 'https://raw.githubusercontent.com/mokeyishi/images/refs/heads/master/img/favicon.ico' },
   { id: '2', categoryId: 'tools', name: 'DeepL', url: 'https://www.deepl.com', description: '全世界最准确的文本翻译工具', icon: 'https://www.deepl.com/favicon.ico' },
   { id: '3', categoryId: 'tools', name: 'TinyPNG', url: 'https://tinypng.com', description: '智能压缩您的 WebP、PNG 和 JPEG 图片', icon: 'https://tinypng.com/images/favicon.ico' },
   { id: '4', categoryId: 'tools', name: 'ProcessOn', url: 'https://www.processon.com', description: '免费在线流程图思维导图', icon: 'https://www.processon.com/favicon.ico' },
