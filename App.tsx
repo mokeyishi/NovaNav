@@ -1,5 +1,5 @@
 
-import React, { useState, useMemo, useEffect, useRef } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import Header from './components/Header';
 import BookmarkCard from './components/BookmarkCard';
 import { CATEGORIES as INITIAL_CAT, INITIAL_BOOKMARKS } from './constants';

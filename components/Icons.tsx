@@ -1,5 +1,5 @@
 
-import React from 'react';
+// Removed unused React import to satisfy strict TS rules in Vite build
 
 // Added onClick to IconProps to allow icon components to handle click events
 interface IconProps {
