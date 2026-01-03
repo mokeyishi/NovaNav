@@ -9,7 +9,7 @@ const Header: React.FC = () => {
     if (hours < 12) setGreeting('早上好');
     else if (hours < 18) setGreeting('下午好');
     else setGreeting('晚上好');
-  }, []);
+  } []);
 
   return (
     <header className="pt-12 pb-8 px-6 text-left">
